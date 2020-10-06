@@ -27,6 +27,11 @@ const routes = [
     component: () => import('../views/asm-lab1.vue')
   },
   {
+    path: '/guides/asm/lab2/',
+    name: 'ASM-lab2',
+    component: () => import('../views/asm-lab2.vue')
+  },
+  {
     path: '/guides/asm/prerequisites/',
     name: 'ASM-prerequisites',
     component: () => import('../views/asm-prerequisites')

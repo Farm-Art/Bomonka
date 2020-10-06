@@ -9,6 +9,7 @@
         <ul>
           <li><router-link to="/guides/asm/prerequisites">Предварительная подготовка</router-link></li>
           <li><router-link to="/guides/asm/lab1">Разбор первой лабораторной</router-link></li>
+          <li><router-link to="/guides/asm/lab2">Разбор второй лабораторной</router-link></li>
         </ul>
       </li>
       <li>

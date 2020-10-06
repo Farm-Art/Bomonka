@@ -4,6 +4,7 @@
     <ul>
       <li><router-link to="Prerequisites">Предварительная настройка</router-link></li>
       <li><router-link to="/guides/asm/lab1">Разбор первой лабораторной работы</router-link></li>
+      <li><router-link to="/guides/asm/lab2">Разбор второй лабораторной работы</router-link></li>
     </ul>
   </div>
 </template>
