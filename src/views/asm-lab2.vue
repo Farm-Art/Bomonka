@@ -224,13 +224,13 @@ odd:
       на вхождение в диапазон знакомыми нам по первой лабе ja, jb:</p>
       <pre v-highlightjs><code class="x86asm">range db 3, ?, 3 dup(?)
 
-    lea dx, range[2]
+    lea dx, range
     mov ah, 0Ah
     int 21h
     ...
     ; Заносим диапазон в регистр AX для удобства
-    mov al, range[0]
-    mov ah, range[1]
+    mov al, range[2]
+    mov ah, range[3]
     mov bl, 0  ; Положим, сумма будет в bl
 cycle:
     cmp [si], ah
